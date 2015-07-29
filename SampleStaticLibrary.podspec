@@ -8,55 +8,11 @@ Pod::Spec.new do |s|
   s.description  = "A very lengthy description can be given here in markdown format."
 
   s.homepage     = "https://github.com/AnandKumar9/SampleStaticLibrary"
-
-
-  # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  #  Licensing your code is important. See http://choosealicense.com for more info.
-  #  CocoaPods will detect a license file if there is a named LICENSE*
-  #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
-  #
-
-  s.license      = "MIT (example)"
-  # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
-
-
-  # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  #  Specify the authors of the library, with email addresses. Email addresses
-  #  of the authors are extracted from the SCM log. E.g. $ git log. CocoaPods also
-  #  accepts just a name if you'd rather not provide an email address.
-  #
-  #  Specify a social_media_url where others can refer to, for example a twitter
-  #  profile URL.
-  #
+  s.license      = { :type => "MIT", :file => "LICENSE.txt" }
 
   s.author             = { "Anand Kumar" => "email@address.com" }
-  # Or just: s.author    = "Anand Kumar"
-  # s.authors            = { "Anand Kumar" => "email@address.com" }
-  # s.social_media_url   = "http://twitter.com/Anand Kumar"
-
-  # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  #  If this Pod runs only on iOS or OS X, then specify the platform and
-  #  the deployment target. You can optionally include the target after the platform.
-  #
-
-  # s.platform     = :ios
-  # s.platform     = :ios, "5.0"
-
-  #  When using multiple platforms
-  # s.ios.deployment_target = "5.0"
-  # s.osx.deployment_target = "10.7"
-
-
-  # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  #  Specify the location from where the source should be retrieved.
-  #  Supports git, hg, bzr, svn and HTTP.
-  #
-
-  s.source       = { :git => "https://github.com/AnandKumar9/SampleStaticLibrary.git", :commit => "4e4c306f89b443e3be4ead6d75beb7584427ca9a", :tag => "1.0.0" }
+  s.platform     = :ios, "8.4"
+  s.source       = { :git => "https://github.com/AnandKumar9/SampleStaticLibrary.git", :commit => "284efd5", :tag => "1.0.0" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -67,10 +23,12 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Classes", "Classes/**/*.{h,m}"
-  s.exclude_files = "Classes/Exclude"
-
-  # s.public_header_files = "Classes/**/*.h"
+#  s.source_files  = "Classes", "Classes/**/*.{h,m}"
+#  s.exclude_files = "Classes/Exclude"
+  s.source_files  = "GetDetailsStaticLibrary"
+#  s.source_files  = "GetDetailsStaticLibrary", "GetDetailsStaticLibrary/*.{h,m}"
+#  s.source_files  = "CVSAppAnalytics", "CVSAppAnalytics/**/*.{h,m}"
+# s.public_header_files = "Classes/**/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
