@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "SampleStaticLibrary"
-  s.version      = "1.0.2"
+  s.version      = "1.0.6"
   s.summary      = "A sample library to test various things."
 
   s.description  = "A very lengthy description can be given here in markdown format."
