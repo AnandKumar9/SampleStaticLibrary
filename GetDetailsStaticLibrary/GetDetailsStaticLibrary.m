@@ -12,7 +12,7 @@
 
 - (void)getCurrentBand {
 //    NSLog(@"Led Zeppelin");
-    NSLog(@"Johnny Cash");
+    NSLog(@"Steve Earle");
 }
 
 @end
