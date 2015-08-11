@@ -12,7 +12,7 @@
 
 - (void)getCurrentBand {
 //    NSLog(@"Led Zeppelin");
-    NSLog(@"Steve Earle");
+    NSLog(@"Indian Ocean");
 }
 
 @end
