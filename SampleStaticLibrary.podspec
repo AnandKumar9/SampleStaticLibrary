@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
 
   s.author             = { "Anand Kumar" => "email@address.com" }
   s.platform     = :ios, "8.4"
-  s.source       = { :git => "https://github.com/AnandKumar9/SampleStaticLibrary.git", :commit => "f58a160", :tag => "1.0.2" }
+  s.source       = { :git => "https://github.com/AnandKumar9/SampleStaticLibrary.git", :commit => "f58a160", :tag => "1.0.6" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
