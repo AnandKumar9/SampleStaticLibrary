@@ -12,7 +12,7 @@
 
 - (void)getCurrentBand {
 //    NSLog(@"Led Zeppelin");
-    NSLog(@"Iron & Wine songs");
+    NSLog(@"Johnny Cash");
 }
 
 @end
