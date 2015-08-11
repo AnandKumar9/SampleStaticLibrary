@@ -11,7 +11,8 @@
 @implementation GetDetailsStaticLibrary
 
 - (void)getCurrentBand {
-    NSLog(@"Led Zeppelin");
+//    NSLog(@"Led Zeppelin");
+    NSLog(@"Iron & Wine");
 }
 
 @end

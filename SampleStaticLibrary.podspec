@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "SampleStaticLibrary"
-  s.version      = "1.0.0"
+  s.version      = "1.0.2"
   s.summary      = "A sample library to test various things."
 
   s.description  = "A very lengthy description can be given here in markdown format."
@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
 
   s.author             = { "Anand Kumar" => "email@address.com" }
   s.platform     = :ios, "8.4"
-  s.source       = { :git => "https://github.com/AnandKumar9/SampleStaticLibrary.git", :commit => "284efd5", :tag => "1.0.0" }
+  s.source       = { :git => "https://github.com/AnandKumar9/SampleStaticLibrary.git", :commit => "f58a160", :tag => "1.0.2" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
